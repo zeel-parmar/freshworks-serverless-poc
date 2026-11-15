@@ -1,0 +1,5 @@
+operation,memory_mb,billed_duration_ms,estimated_usd_per_1000_requests,notes
+GET /health,128,26,0.00125417,Single warm invocation; no DynamoDB operation
+POST /tickets,128,348,0.00263500,Single measured invocation; assumes 1 DynamoDB write unit
+GET /tickets/{ticketId},128,98,0.00147542,Single measured invocation; assumes 0.5 DynamoDB read units
+One POST + one ticket GET,128,,0.00411042,Sum of the POST and ticket GET estimates
