@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /tickets",
+  "rawPath": "/tickets",
+  "rawQueryString": "",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "requestContext": {
+    "http": {
+      "method": "POST",
+      "path": "/tickets",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "127.0.0.1"
+    }
+  },
+  "body": "{\"subject\": \"Order delayed\", \"description\": \"My order has not arrived yet.\", \"customerEmail\": \"student@example.com\"}",
+  "isBase64Encoded": false
+}

@@ -1,0 +1,6 @@
+{
+  "TicketFunction": {
+    "TABLE_NAME": "local-SupportTickets",
+    "DYNAMODB_ENDPOINT_URL": "http://host.docker.internal:8000"
+  }
+}

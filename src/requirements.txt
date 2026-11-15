@@ -1,0 +1,3 @@
+# Intentionally empty.
+# boto3 is already included in the AWS Lambda Python runtime, so nothing needs to be packaged.
+# Adding packages here makes the deployment bigger and cold starts slower.

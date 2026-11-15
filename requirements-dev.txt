@@ -1,0 +1,3 @@
+# Needed only on your own computer (not deployed to AWS).
+boto3>=1.34      # used by src/app.py; the unit tests mock DynamoDB, so no AWS credentials are needed
+matplotlib>=3.7  # used by experiments/analysis.py to draw graphs
