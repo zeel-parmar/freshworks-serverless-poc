@@ -9,4 +9,4 @@ samconfig.toml
 *.pem
 credentials
 # Generated graphs
-experiments/graphs/
+
